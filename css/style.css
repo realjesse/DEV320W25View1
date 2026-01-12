@@ -73,3 +73,24 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+html,
+body {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.verticle {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
