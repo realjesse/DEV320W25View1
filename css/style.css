@@ -77,6 +77,9 @@ h6 {
 html,
 body {
   height: 100vh;
+  background-color: whitesmoke;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .flex {
@@ -93,4 +96,30 @@ body {
 
 .align-center {
   align-items: center;
+}
+
+.headshot {
+  height: 250px;
+  border-radius: 5px;
+}
+
+.paragraph-styling {
+  max-width: 75ch;
+  min-width: 50ch;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.grey {
+  background-color: #e6e6e6;
+}
+
+.padding-15 {
+  padding: 15px;
+}
+
+.rounded-15 {
+  border-radius: 15px;
 }
